@@ -1,0 +1,2 @@
+REPLACE INTO `cscart_payment_processors` (`processor_id`, `processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`) VALUES
+(1222, 'Paygine', 'paygine.php', 'views/orders/components/payments/paygine.tpl', 'paygine.tpl', 'N', 'P');
