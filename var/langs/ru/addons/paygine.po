@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::paygine"
+msgid "Paygine"
+msgstr "Paygine"
+
+msgctxt "Addons::description::paygine"
+msgid "Accept payments for your products via credit and debit cards."
+msgstr "Принимайте платежи с помощью кредитных и дебетовых карт."
+
+msgctxt "Languages::paygine.sector_description"
+msgid "Your individual customer number"
+msgstr "Ваш индивидуальный номер клиента"
+
+msgctxt "Languages::paygine.password_description"
+msgid "Password used to generate a digital signature"
+msgstr "Пароль, используемый для формирования цифровой подписи"
+
+msgctxt "Languages::paygine.payment_method"
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+# Settings
+msgctxt "Languages::paygine.one_stage"
+msgid "Standard acquiring (one-stage payment)"
+msgstr "Стандартный эквайринг (одностадийная оплата)"
+
+msgctxt "Languages::paygine.two_steps"
+msgid "Standard acquiring (two-stage payment)"
+msgstr "Стандартный эквайринг (двухстадийная оплата)"
+
+msgctxt "Languages::paygine.halva"
+msgid "Halva Chastyami (one-stage payment)"
+msgstr "Только Халва Частями (одностадийная оплата)"
+
+msgctxt "Languages::paygine.halva_two_steps"
+msgid "Halva Chastyami (two-stage payment)"
+msgstr "Только Халва Частями (двухстадийная оплата)"
+
+msgctxt "Languages::paygine.sbp"
+msgid "Fast Payment System"
+msgstr "Система Быстрых Платежей (СБП)"
+
+msgctxt "Languages::paygine.two_steps_description"
+msgid "Payment occurs after confirmation by the manager in the personal account"
+msgstr "Оплата происходит после подтверждения менеджером в ЛК"
+
+msgctxt "Languages::paygine.modal_payform"
+msgid "Open the payment form in modal window"
+msgstr "Открывать пейформу в модальном окне"
+
+msgctxt "Languages::paygine.modal_payform_description"
+msgid "When this option is enabled, the payment form opens in a modal window"
+msgstr "При включенной опции форма оплаты открывается в модальном окне"
+
+msgctxt "Languages::paygine.test_mode"
+msgid "Test Mode"
+msgstr "Тестовый режим"
+
+msgctxt "Languages::paygine.test_mode_description"
+msgid "Use emulation of real work. Buyer will not be charged"
+msgstr "Использовать эмуляцию реальной работы. Средства с покупателя списаны не будут"
+
+msgctxt "Languages::paygine.tax"
+msgid "Tax"
+msgstr "Налог"
+
+msgctxt "Languages::paygine.vat1"
+msgid "VAT rate 20%"
+msgstr "ставка НДС 20%"
+
+msgctxt "Languages::paygine.vat2"
+msgid "VAT rate 10%"
+msgstr "ставка НДС 10%"
+
+msgctxt "Languages::paygine.vat3"
+msgid "VAT rate calc. 20/120"
+msgstr "ставка НДС расч. 20/120"
+
+msgctxt "Languages::paygine.vat4"
+msgid "VAT rate calc. 10/110"
+msgstr "ставка НДС расч. 10/110"
+
+msgctxt "Languages::paygine.vat5"
+msgid "VAT rate 0%"
+msgstr "ставка НДС 0%"
+
+msgctxt "Languages::paygine.vat6"
+msgid "Not subject to VAT"
+msgstr "НДС не облагается"
+
+msgctxt "Languages::paygine.custom_orders_statuses_title"
+msgid "Custom statuses for orders"
+msgstr "Настраиваемые статусы для заказов"
+
+msgctxt "Languages::paygine.order_completed"
+msgid "Order successfully paid"
+msgstr "Заказ успешно оплачен"
+
+msgctxt "Languages::paygine.order_authorized"
+msgid "Order authorized"
+msgstr "Средства захолдированы"
+
+msgctxt "Languages::paygine.order_canceled"
+msgid "Order cancelled"
+msgstr "Заказ отменен"
+
+msgctxt "Languages::paygine.notify_url"
+msgid "Notify URL"
+msgstr "URL для уведомлений"
+
+msgctxt "Languages::paygine.notify_url_description"
+msgid "Report this URL to Paygine technical support to receive payment notifications"
+msgstr "Сообщите в службу технической поддержки Paygine этот URL для получения уведомлений о платеже"
+
+# Errors and notifications
+msgctxt "Languages::paygine.access_denied"
+msgid "Access denied"
+msgstr "Доступ запрещен"
+
+msgctxt "Languages::paygine.payment_process_error"
+msgid "An error occurred in the payment system during the payment process. Please try again or choose a different payment method."
+msgstr "Произошла ошибка платежной системы в процессе оплаты. Пожалуйста, попробуйте еще раз или выберите другой способ оплаты."
+
+msgctxt "Languages::paygine.empty_response"
+msgid "Empty response"
+msgstr "Пустой ответ сервера"
+
+msgctxt "Languages::paygine.invalid_xml"
+msgid "Non valid XML was received"
+msgstr "Получен недействительный XML"
+
+msgctxt "Languages::paygine.empty_signature"
+msgid "Signature is empty"
+msgstr "Отсутствует подпись"
+
+msgctxt "Languages::paygine.invalid_signature"
+msgid "Signature is not valid"
+msgstr "Подпись недействительна"
+
+msgctxt "Languages::paygine.unknown_operation"
+msgid "Unknown operation type"
+msgstr "Неизвестный тип операции"
+
+msgctxt "Languages::paygine.operation_not_approved"
+msgid "Operation not approved"
+msgstr "Операция не одобрена"
+
+msgctxt "Languages::paygine.operation_not_valid"
+msgid "Operation not valid"
+msgstr "Операция недействительна"
+
+msgctxt "Languages::paygine.no_order_id"
+msgid "Order ID does not exist"
+msgstr "ID заказа не существует"
+
+msgctxt "Languages::paygine.refund_completed"
+msgid "Refund completed successfully"
+msgstr "Возврат успешно завершен"
+
+msgctxt "Languages::paygine.payment_successful"
+msgid "Payment successful"
+msgstr "Платеж прошел успешно"
+
+# Order
+msgctxt "Languages::paygine.complete"
+msgid "Complete"
+msgstr "Списать средства"
+
+msgctxt "Languages::paygine.refund"
+msgid "Refund"
+msgstr "Отменить платеж"

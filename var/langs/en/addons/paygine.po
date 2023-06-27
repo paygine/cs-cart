@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::paygine"
+msgid "Paygine"
+msgstr "Paygine"
+
+msgctxt "Addons::description::paygine"
+msgid "Accept payments for your products via credit and debit cards."
+msgstr "Accept payments for your products via credit and debit cards."
+
+msgctxt "Languages::paygine.sector_description"
+msgid "Your individual customer number"
+msgstr "Your individual customer number"
+
+msgctxt "Languages::paygine.password_description"
+msgid "Password used to generate a digital signature"
+msgstr "Password used to generate a digital signature"
+
+msgctxt "Languages::paygine.payment_method"
+msgid "Payment method"
+msgstr "Payment method"
+
+# Settings
+msgctxt "Languages::paygine.one_stage"
+msgid "Standard acquiring (one-stage payment)"
+msgstr "Standard acquiring (one-stage payment)"
+
+msgctxt "Languages::paygine.two_steps"
+msgid "Standard acquiring (two-stage payment)"
+msgstr "Standard acquiring (two-stage payment)"
+
+msgctxt "Languages::paygine.halva"
+msgid "Halva Chastyami (one-stage payment)"
+msgstr "Halva Chastyami (one-stage payment)"
+
+msgctxt "Languages::paygine.halva_two_steps"
+msgid "Halva Chastyami (two-stage payment)"
+msgstr "Halva Chastyami (two-stage payment)"
+
+msgctxt "Languages::paygine.sbp"
+msgid "Fast Payment System"
+msgstr "Fast Payment System"
+
+msgctxt "Languages::paygine.two_steps_description"
+msgid "Payment occurs after confirmation by the manager in the personal account"
+msgstr "Payment occurs after confirmation by the manager in the personal account"
+
+msgctxt "Languages::paygine.modal_payform"
+msgid "Open the payment form in modal window"
+msgstr "Open the payment form in modal window"
+
+msgctxt "Languages::paygine.modal_payform_description"
+msgid "When this option is enabled, the payment form opens in a modal window"
+msgstr "When this option is enabled, the payment form opens in a modal window"
+
+msgctxt "Languages::paygine.test_mode"
+msgid "Test Mode"
+msgstr "Test Mode"
+
+msgctxt "Languages::paygine.test_mode_description"
+msgid "Use emulation of real work. Buyer will not be charged"
+msgstr "Use emulation of real work. Buyer will not be charged"
+
+msgctxt "Languages::paygine.tax"
+msgid "Tax"
+msgstr "Tax"
+
+msgctxt "Languages::paygine.vat1"
+msgid "VAT rate 20%"
+msgstr "VAT rate 20%"
+
+msgctxt "Languages::paygine.vat2"
+msgid "VAT rate 10%"
+msgstr "VAT rate 10%"
+
+msgctxt "Languages::paygine.vat3"
+msgid "VAT rate calc. 20/120"
+msgstr "VAT rate calc. 20/120"
+
+msgctxt "Languages::paygine.vat4"
+msgid "VAT rate calc. 10/110"
+msgstr "VAT rate calc. 10/110"
+
+msgctxt "Languages::paygine.vat5"
+msgid "VAT rate 0%"
+msgstr "VAT rate 0%"
+
+msgctxt "Languages::paygine.vat6"
+msgid "Not subject to VAT"
+msgstr "Not subject to VAT"
+
+msgctxt "Languages::paygine.custom_orders_statuses_title"
+msgid "Custom statuses for orders"
+msgstr "Custom statuses for orders"
+
+msgctxt "Languages::paygine.order_completed"
+msgid "Order successfully paid"
+msgstr "Order successfully paid"
+
+msgctxt "Languages::paygine.order_authorized"
+msgid "Order authorized"
+msgstr "Order authorized"
+
+msgctxt "Languages::paygine.order_canceled"
+msgid "Order cancelled"
+msgstr "Order cancelled"
+
+msgctxt "Languages::paygine.notify_url"
+msgid "Notify URL"
+msgstr "Notify URL"
+
+msgctxt "Languages::paygine.notify_url_description"
+msgid "Report this URL to Paygine technical support to receive payment notifications"
+msgstr "Report this URL to Paygine technical support to receive payment notifications"
+
+# Errors and notifications
+msgctxt "Languages::paygine.access_denied"
+msgid "Access denied"
+msgstr "Access denied"
+
+msgctxt "Languages::paygine.payment_process_error"
+msgid "An error occurred in the payment system during the payment process. Please try again or choose a different payment method."
+msgstr "An error occurred in the payment system during the payment process. Please try again or choose a different payment method."
+
+msgctxt "Languages::paygine.empty_response"
+msgid "Empty response"
+msgstr "Empty response"
+
+msgctxt "Languages::paygine.invalid_xml"
+msgid "Non valid XML was received"
+msgstr "Non valid XML was received"
+
+msgctxt "Languages::paygine.empty_signature"
+msgid "Signature is empty"
+msgstr "Signature is empty"
+
+msgctxt "Languages::paygine.invalid_signature"
+msgid "Signature is not valid"
+msgstr "Signature is not valid"
+
+msgctxt "Languages::paygine.unknown_operation"
+msgid "Unknown operation type"
+msgstr "Unknown operation type"
+
+msgctxt "Languages::paygine.operation_not_approved"
+msgid "Operation not approved"
+msgstr "Operation not approved"
+
+msgctxt "Languages::paygine.operation_not_valid"
+msgid "Operation not valid"
+msgstr "Operation not valid"
+
+msgctxt "Languages::paygine.no_order_id"
+msgid "Order ID does not exist"
+msgstr "Order ID does not exist"
+
+msgctxt "Languages::paygine.refund_completed"
+msgid "Refund completed successfully"
+msgstr "Refund completed successfully"
+
+msgctxt "Languages::paygine.payment_successful"
+msgid "Payment successful"
+msgstr "Payment successful"
+
+# Order
+msgctxt "Languages::paygine.complete"
+msgid "Complete"
+msgstr "Complete"
+
+msgctxt "Languages::paygine.refund"
+msgid "Refund"
+msgstr "Refund"

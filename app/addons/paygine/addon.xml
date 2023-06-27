@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>paygine</id>
+	<name>Paygine</name>
+	<version>1.1.2</version>
+	<description>Возможность оплаты товаров через платежные системы MasterCard, Visa и Мир</description>
+	<status>active</status>
+	<priority>100</priority>
+	<auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+	<authors>
+		<author>
+			<name>Paygine</name>
+			<email>helpline@paygine.ru</email>
+			<url>https://paygine.ru/</url>
+			<phone>+7 800 777 29 37</phone>
+		</author>
+	</authors>
+	<supplier>Paygine</supplier>
+	<default_language>ru</default_language>
+	<functions>
+		<item for="install">fn_paygine_add_payment_processor</item>
+		<item for="uninstall">fn_paygine_delete_payment_processor</item>
+	</functions>
+</addon>
